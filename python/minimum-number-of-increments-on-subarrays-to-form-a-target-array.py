@@ -9,8 +9,8 @@ class Solution:
         initial = [0 for i in target]
         operations = 0
         
-        while initial == target:
-        # for num in range(max(target)):
+        # while initial == target:
+        for num in range(max(target)):
             for index in range(len(target)):
                 if initial[index] != target[index]:
                     initial[index] += 1
